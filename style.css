@@ -49,6 +49,10 @@ body {
 
 }
 
+.nav.ubah{
+    background-color: rgb(2, 2, 34);
+}
+
 .nav li {
     list-style-type: none;
 }
@@ -239,6 +243,10 @@ body {
     box-shadow: 1px 1px 10px #aaa;
 }
 
+.about p.ubah {
+    background-color: rgb(3, 3, 62);
+}
+
 /* skill */
 
 .skill h1 {
@@ -291,8 +299,8 @@ body {
     width: 70%;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    /* grid-template-columns: 1fr 1fr 1fr; */
+    /* grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); */
+    grid-template-columns: 1fr 1fr 1fr ;
     gap: 5px;
     /* border: 3px solid blue; */
     padding: 10px;
@@ -386,8 +394,8 @@ body {
 /* mode */
 
 .nav li .mode {
-    width: 30px;
-    height: 30px;
+    width: 20px;
+    height: 20px;
     border-radius: 50%;
     background-color: black;
     border: 3px solid blue;
@@ -433,8 +441,10 @@ body {
         z-index: -1;
         transform: translateY(-150%);
         opacity: 0;
+    }
 
-        
+    .nav.ubah{
+        background-color: rgb(3, 3, 62);
     }
 
     .menu {
@@ -533,5 +543,19 @@ body {
         justify-content: space-evenly;
     }
 
+    .kartu {
+        width: 50%;
+        grid-template-columns: 1fr;
+
+    }
     
+    .kartu li img {
+        padding: 0;
+        width: 100%;
+        
+        
+        
+    }
+
+
 }

@@ -9,8 +9,12 @@ menu.addEventListener('click', function() {
 
 // mode
 const mode = document.querySelector('.nav li .mode');
+const about = document.querySelector('.about p');
+const navbar = document.querySelector('.nav');
 
 mode.addEventListener('click', function() {
     document.body.classList.toggle('ubah');
     mode.classList.toggle('warna');
+    about.classList.toggle('ubah');
+    navbar.classList.toggle('ubah');
 })
