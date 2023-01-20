@@ -31,14 +31,21 @@ body {
     align-items: center;
     gap: 10px;
     position: relative;
+    padding-left: 20px;
     
 }
 
-.konten .logo {
-    font-size: 2em;
+.konten > a {
+    font-size: 2.5em;
+    /* padding-left: 40px; */
+    font-weight: bold;
+    text-decoration: none;
     color: white;
-    cursor: pointer;
-    padding-left: 40px;
+    display: block;
+    width: 30%;
+    text-align: center;
+    text-shadow: 1px 1px 10px blue, -1px -1px 5px #333;
+    box-shadow: 1px 1px 5px blue;
 }
 
 .nav {
@@ -99,6 +106,7 @@ body {
     width: 30px;
     height: 30px;
     opacity: 0;
+    cursor: pointer;
 
 }
 
@@ -541,10 +549,11 @@ body {
         display: grid;
         grid-template-columns: repeat(3, 50px);
         justify-content: space-evenly;
+        row-gap: 20px;
     }
 
     .kartu {
-        width: 50%;
+        width: 80%;
         grid-template-columns: 1fr;
 
     }
